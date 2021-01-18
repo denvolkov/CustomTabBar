@@ -60,13 +60,13 @@ struct ContentView: View {
                     Image(systemName: "heart")
                         .font(.largeTitle)
                         .padding(15)
-                } .background(Color.yellow)
+                } .background(Color.init(#colorLiteral(red: 1, green: 0.4269846069, blue: 0.617423971, alpha: 1)))
                 .clipShape(Circle())
                 .offset(y: -20)
                 .shadow(radius: 5)
             }
             
-        }.background(Color.green.edgesIgnoringSafeArea(.all))
+        }.background(Color.init(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)).edgesIgnoringSafeArea(.top))
     }
 }
 
